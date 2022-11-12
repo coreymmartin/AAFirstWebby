@@ -1,0 +1,139 @@
+
+/* tags */
+
+a:link {
+    color:red;
+}
+a:visited {
+    color:black;
+}
+body {
+    background-color: lightgrey;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: "Goudy Old Style"
+    /* overflow: hidden; */
+}
+fieldset {
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: "Perpetua";
+}
+table {
+    text-align: center;
+    border: 2px solid green;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+/* classes */
+.about-info-area {
+    text-align: justify;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.about-images {
+    width: 250px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.button-submit-joke{
+    padding-left: 30%;
+}
+.center-links {
+    padding-left:35%;
+}
+.column-left {
+    float: left;
+    max-width: 50%;
+}
+.column-right {
+ float: right;
+ max-width: 50%;
+}
+.fav-joke-answer {
+    font-size: 15pt;
+    color: black;
+    font-style: oblique;
+    padding-left: 5%;
+}
+.fav-joke-container {
+    padding-left: 4%;    
+}
+.fav-joke-entry{
+    font-size: 18pt;
+    color: black;
+}
+.image-container {
+    padding-left:20%;
+}
+.indent-please {
+    padding-left: 5%;
+}
+.nav-bar-inline-centered {
+    background-color: lightblue;
+    font-family: "Garamond";
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.nav-bar-item {
+    color: black;
+    text-decoration: none;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 20pt;
+}
+.page-title-large {
+    font-size: 2.5em;
+    text-decoration: underline;
+}
+.row {
+    display: inline-block;
+}
+.ul-joke-links{
+    font-family: "Perpetua";
+    font-size: 15pt;
+}
+.user-submit-info{
+    align-content: center;
+}
+
+/* ids */
+#home-page-image {
+    padding-left: 50px;
+    width: 650px;
+    overflow: hidden;
+}
+#submit-name{
+    margin-top: 2px;;
+    margin-bottom: 2px;;
+    width: 30%;
+    height: 5%;
+}
+#submit-age{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 30%;
+    height: 5%;
+    margin-left: 12px;
+}
+#submit-email{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 30%;
+    height: 5%;
+}
+#submit-joke-entry-text{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    width: 60%;
+    height: 150px;
+    overflow: scroll;
+}
